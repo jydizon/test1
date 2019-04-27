@@ -7,6 +7,22 @@
 #include <string>
 using namespace std;
 
+string staffName;
+  string staffID;
+  string staffRole;
+  string birthday;
+  string staffSalary;
+  string staffCasualLeave;
+  string slot1;
+  string slot2;
+  string slot3;
+  string slot4;
+  string leavesleft;
+  string clID;
+  int n;
+  int salary;
+  string attribute;
+
     void viewAllStaff(void) {
       ifstream fin;
       fin.open("staffrec.txt");
